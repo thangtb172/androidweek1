@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">week1</string>
+    <string name="textbutton">Skip</string>
+    <string name="app_name1">Verification_Code</string>
+    <string name="vc">Verification Code</string>
+    <string name="pl">Please type the verification code sent to prelookstudio@gmail.com</string>
+    <string name="i">I dont recevie a code!</string>
+    <string name="B">Back</string>
+</resources>

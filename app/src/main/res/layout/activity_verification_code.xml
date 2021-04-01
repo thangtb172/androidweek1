@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="37dp"
+        android:background="@drawable/but_1"
+        android:contentDescription="@string/B"
+        android:layout_marginLeft="27dp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="296dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="180dp"
+        android:text="@string/vc"
+        android:textColor="#000000"
+        android:textSize="36.41sp"
+        android:layout_marginLeft="26dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="289dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="232dp"
+        android:text="@string/pl"
+        android:textColor="#9796A1"
+        android:textSize="14sp"
+        android:layout_marginLeft="26dp" />
+
+    <EditText
+        android:id="@+id/numb1"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="@drawable/goc_tron"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:textColor="#FE724C"
+        android:textSize="27.2sp"
+        android:autofillHints="5"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="301dp"
+        android:layout_marginLeft="27dp" />
+    <EditText
+        android:id="@+id/numb2"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="@drawable/goc_tron"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:textColor="#FE724C"
+        android:textSize="27.2sp"
+        android:autofillHints="3"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="301dp"
+        android:layout_marginLeft="112dp" />
+    <EditText
+        android:id="@+id/numb3"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="@drawable/goc_tron"
+        android:inputType="numberDecimal"
+        android:gravity="center"
+        android:textColor="#FE724C"
+        android:textSize="27.2sp"
+        android:autofillHints="7"
+        android:layout_marginStart="197dp"
+        android:layout_marginTop="301dp"
+        android:layout_marginLeft="197dp" />
+    <EditText
+        android:id="@+id/numb4"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="@drawable/goc_tron"
+        android:inputType="numberDecimal"
+        android:gravity="center"
+        android:textColor="#FE724C"
+        android:textSize="27.2sp"
+        android:autofillHints="9"
+        android:layout_marginStart="282dp"
+        android:layout_marginTop="301dp"
+        android:layout_marginLeft="282dp" />
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:text="I don't receive a code! "
+        android:textSize="16sp"
+        android:textColor="#5B5B5E"
+        android:layout_marginStart="59.5dp"
+        android:layout_marginTop="393dp"
+        android:layout_marginLeft="59.5dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:text="Please resend"
+        android:textColor="#FE724C"
+        android:textSize="16sp"
+        android:layout_marginTop="393dp"
+        android:layout_toEndOf="@id/text3"
+        android:layout_toRightOf="@id/text3" />
+
+
+</RelativeLayout>
