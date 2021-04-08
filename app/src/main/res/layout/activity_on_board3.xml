@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_height="380dp"
+        android:background="@drawable/onboarding3"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:gravity="center"
+        android:text="Pickup delivery at"
+        android:textColor="@color/black"
+        android:textSize="40sp"/>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:text="Our app can send you everywhere, even space. For only $2.99 per month"
+        android:textSize="19sp"/>
+    <ImageButton
+        android:id="@+id/skip"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button5"/>
+
+
+
+</LinearLayout>

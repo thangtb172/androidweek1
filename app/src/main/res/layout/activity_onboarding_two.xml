@@ -4,54 +4,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".onboarding_two">
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="310dp"
-        android:layout_height="324.5dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="40dp"
-        app:srcCompat="@drawable/froup_87" />
-
+        android:id="@+id/onbTwo"
+        android:layout_width="527.38dp"
+        android:layout_height="349.19dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/onboarding_two_picture" />
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/onBTwoIcon1"
         android:layout_width="46.92dp"
         android:layout_height="5dp"
         android:layout_marginLeft="175.08dp"
         android:layout_marginTop="20.62dp"
-        android:layout_below="@+id/imageView3"
+        android:layout_below="@+id/onbTwo"
         app:srcCompat="@drawable/group_17895"
         android:layout_marginStart="175.08dp" />
-
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Browse your menu and order directly"
-        android:textColor="#131A38"
+        android:id="@+id/onBTwoTv1"
+        android:layout_width="324dp"
+        android:layout_height="79dp"
+        android:text="@string/Et"
         android:textSize="36sp"
+        android:textColor="#131A38"
         android:fontFamily="@font/sofia_pro_medium"
-        android:layout_marginTop="400dp"
-        android:layout_marginLeft="19dp"
-        android:layout_marginStart="19dp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="300dp"
-        android:layout_height="54dp"
-        android:fontFamily="@font/sofia_pro_regular"
         android:gravity="center"
-        android:text="Our app can send you everywhere, even space. For only $2.99 per month"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp" />
+    <TextView
+        android:id="@+id/onBTwoTv2"
+        android:layout_width="336dp"
+        android:layout_height="54dp"
+        android:text="@string/Ou"
         android:textColor="#616772"
         android:textSize="17sp"
-        android:layout_marginStart="42dp"
-        android:layout_marginLeft="35dp"
+        android:fontFamily="@font/sofia_pro_regular"
+        android:gravity="center"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
         android:layout_marginTop="500dp"/>
-
     <ImageButton
-        android:id="@+id/btOnbOne"
+        android:id="@+id/btOnbTwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#FFFFFF"
@@ -59,5 +54,4 @@
         android:layout_marginTop="580.11dp"
         android:layout_marginLeft="154dp"
         android:layout_marginStart="154dp" />
-
 </RelativeLayout>
